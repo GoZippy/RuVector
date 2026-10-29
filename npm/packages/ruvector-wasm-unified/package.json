@@ -51,13 +51,12 @@
     "lint": "eslint src --ext .ts",
     "prepublishOnly": "npm run build"
   },
-  "dependencies": {},
   "devDependencies": {
     "@types/node": "^20.10.0",
     "eslint": "^8.55.0",
     "tsup": "^8.0.1",
     "typescript": "^5.3.3",
-    "vitest": "^1.1.0"
+    "vitest": "^5.0.5"
   },
   "peerDependencies": {
     "typescript": ">=5.0.0"
